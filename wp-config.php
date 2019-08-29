@@ -23,13 +23,13 @@
 define( 'DB_NAME', 'wordpress22' );
 
 /** MySQL数据库用户名 */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'test' );
 
 /** MySQL数据库密码 */
-define( 'DB_PASSWORD', 'root' );
+define( 'DB_PASSWORD', '123!@#QWEasd' );
 
 /** MySQL主机 */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', '198.35.45.87' );
 
 /** 创建数据表时默认的文字编码 */
 define( 'DB_CHARSET', 'utf8mb4' );
