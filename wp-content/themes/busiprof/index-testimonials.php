@@ -73,7 +73,7 @@ if( $current_options['home_testimonial_section_enabled']=='on' ) { ?>
 							<?php $default_arg =array('class' => "img-circle"); ?>
 							<figure class="post-thumbnail22">
 							<a href="<?php echo $test_link; ?>" <?php if($open_new_tab == 'yes'){ echo 'target="_blank"';}?>>
-							<img alt="img" class="img-responsive" src="<?php echo $testimonial_iteam->image_url; ?>" draggable="false">
+							<img alt="img" class="img-responsive self-img" src="<?php echo $testimonial_iteam->image_url; ?>" draggable="false">
 							</a>
 							</figure>
 							
@@ -92,7 +92,7 @@ if( $current_options['home_testimonial_section_enabled']=='on' ) { ?>
 					$name = array('Robert Johnson','Natelie Portman','Annah Doe','Charlie Sun');
 					$desc = array('(CEO & Founder)','(Sales & Marketing)','(Sales Executive)','(Team Leader)');
 					for($i=0; $i<=3; $i++) { ?>
-					<div class="col-md-12 pull-left item <?php if($i == 0) { echo 'active'; } ?>">
+					<div class="self-title col-md-12 pull-left item <?php if($i == 0) { echo 'active'; } ?>">
 					
 						<div class="post"> 
 							<figure class="post-thumbnail"><img src="<?php echo get_template_directory_uri(); ?>/images/<?php echo $image[$i]; ?>.jpg" class="img-circle" alt="img"></figure> 	

@@ -1151,3 +1151,8 @@ li.mini_cart_item  a::before{ display:none;}
 .woocommerce-product-gallery .flex-control-nav {
     display: block;
 }
+
+/*------------------start---------*/
+.self-img {margin: auto; width: 100%}
+.self-title {margin: auto; width: 100%}
+/*-------------------end----------*/
