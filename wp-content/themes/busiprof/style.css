@@ -1153,6 +1153,6 @@ li.mini_cart_item  a::before{ display:none;}
 }
 
 /*------------------start---------*/
-.self-img {margin: auto; width: 100%}
+.self-img {margin: auto; width: auto; height: 300px;}
 .self-title {margin: auto; width: 100%}
 /*-------------------end----------*/
