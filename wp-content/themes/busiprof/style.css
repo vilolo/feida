@@ -545,7 +545,7 @@ a.rsswidget::before { display: none; }
 /* .testimonial-scroll .post .post-thumbnail { margin: 0px 0 25px; overflow: hidden; } */
 /* .testimonial-scroll .post-thumbnail img { border-radius: 50%; background-color: #fff; border: 1px solid #d2d2d2; padding: 4px; width: 100px; height: 100px; margin: 0 auto; } */
 .testimonial-scroll .post .post-thumbnail { margin: 0px auto 25px; width: 100px; height: 100px; }
-.testimonial-scroll .post-thumbnail img { border-radius: 50%; background-color: #fff; border: 1px solid #d2d2d2; padding: 4px; width: 100px; height: 100px; margin: 0; }
+.testimonial-scroll .post-thumbnail img { /*border-radius: 50%; */ background-color: #fff; border: 1px solid #d2d2d2; padding: 4px; /*width: 100px; */ width:auto; height: 100px; margin: 0; }
 
 
 .testimonial-scroll .author-name { 
