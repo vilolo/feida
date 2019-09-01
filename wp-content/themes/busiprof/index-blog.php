@@ -4,18 +4,18 @@ if( $current_options['home_recentblog_section_enabled']=='on' ) { ?>
 <section id="section" class="home-post-latest">
 	<div class="container">	
 		<!-- Section Title -->
-		<div class="row">
-			<div class="col-md-12">
-				<div class="section-title">
-					<?php
-					if( $current_options['recent_blog_title'] != '' ) { ?> 
-					<h1 class="section-heading"><?php echo $current_options['recent_blog_title'];?></h1>
-					<?php } if( $current_options['recent_blog_description'] !='')  { ?>
-					<p><?php echo $current_options['recent_blog_description'];?></p>
-					<?php } ?>
-				</div>
-			</div>
-		</div>
+<!--		<div class="row">-->
+<!--			<div class="col-md-12">-->
+<!--				<div class="section-title">-->
+<!--					--><?php
+//					if( $current_options['recent_blog_title'] != '' ) { ?><!-- -->
+<!--					<h1 class="section-heading">--><?php //echo $current_options['recent_blog_title'];?><!--</h1>-->
+<!--					--><?php //} if( $current_options['recent_blog_description'] !='')  { ?>
+<!--					<p>--><?php //echo $current_options['recent_blog_description'];?><!--</p>-->
+<!--					--><?php //} ?>
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
 		<!-- /Section Title -->	
 			
 		<!-- Blog Post -->				

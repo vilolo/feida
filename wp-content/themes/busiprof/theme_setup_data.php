@@ -28,7 +28,7 @@ function theme_setup_data()
 			'home_service_section_enabled'=>'on',
 			'home_project_section_enabled'=>'on',
 			'home_testimonial_section_enabled'=>'on',
-			'home_recentblog_section_enabled'=>'off', 		//todo off
+			'home_recentblog_section_enabled'=>'on', 		//todo
 			'contact_info_enabled' => 'on',
 			'contact_google_map_enabled'=>'on',
 			'contact_client_enabled' => 'on',
