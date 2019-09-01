@@ -71,7 +71,7 @@ if( $current_options['home_testimonial_section_enabled']=='on' ) { ?>
 					<div class="col-md-12 pull-left item <?php if( $t == true ){ echo 'active'; } $t = false; ?>">
 						<div class="post"> 
 							<?php $default_arg =array('class' => "img-circle"); ?>
-							<figure class="post-thumbnail">
+							<figure class="post-thumbnail22">
 							<a href="<?php echo $test_link; ?>" <?php if($open_new_tab == 'yes'){ echo 'target="_blank"';}?>>
 							<img alt="img" class="img-responsive" src="<?php echo $testimonial_iteam->image_url; ?>" draggable="false">
 							</a>
