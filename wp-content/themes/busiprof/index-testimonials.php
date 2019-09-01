@@ -77,9 +77,9 @@ if( $current_options['home_testimonial_section_enabled']=='on' ) { ?>
 							</a>
 							</figure>
 							
-							<div class="entry-content">
-								<p><?php echo $test_desc; ?></p>
-							</div>
+<!--							<div class="entry-content">-->
+<!--								<p>--><?php //echo $test_desc; ?><!--</p>-->
+<!--							</div>-->
 							<div class="media"> 
 								<div class="media-body">
 									<span class="author-name"> <a href="<?php echo $test_link; ?>" <?php if($open_new_tab == 'yes'){ echo 'target="_blank"';}?>> <?php echo $title; ?> </a> <small class="designation"><?php echo $designation; ?></small></span>
