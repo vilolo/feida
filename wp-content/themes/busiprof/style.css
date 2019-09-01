@@ -444,7 +444,7 @@ a.rsswidget::before { display: none; }
 	font-weight: 700;
 }
 .testimonial-scroll .designation { color: #737f85; font-weight: 400; }
-.testimonial-scroll .post-thumbnail img { border-radius: 50%; background-color: #fff; border: 1px solid #d2d2d2; padding: 3px; width: 60px; height: 60px; }
+.testimonial-scroll .post-thumbnail img { /*border-radius: 50%;*/ background-color: #fff; border: 1px solid #d2d2d2; padding: 3px; width: 60px; height: 60px; }
 /* Direction Nav */
 .testi-nav { *height: 0; list-style-type: none; margin: -20px 0 0; padding: 0; float: right; }
 .testi-nav li { display: inline-block; padding: 0; }
